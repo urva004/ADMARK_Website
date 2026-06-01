@@ -1,0 +1,717 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AD Mark | India's Trusted Supply Chain & Logistics Partner</title>
+
+    <!-- External assets -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+
+    <style>
+      @keyframes marquee {
+        0% {
+          transform: translateX(0);
+        }
+        100% {
+          transform: translateX(-50%);
+        }
+      }
+      .marquee-track {
+        display: flex;
+        width: max-content;
+        animation: marquee 25s linear infinite;
+      }
+      .marquee-track:hover {
+        animation-play-state: paused;
+      }
+    </style>
+  </head>
+  <body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+    <!-- Global Sticky Navigation Bar Dynamic Hook -->
+    <div id="global-navbar" class="sticky-navbar"></div>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen flex items-center pt-20">
+      <div class="absolute inset-0 z-0">
+        <div
+          class="absolute inset-0 bg-gradient-to-r from-port-black via-port-black/80 to-transparent z-10"
+        ></div>
+        <img
+          alt="Logistics Hub"
+          class="w-full h-full object-cover"
+          src="/assets/port-aerial-topview.png"
+          width="1920"
+          height="1080"
+        />
+      </div>
+      <div
+        class="relative z-20 max-w-container-max mx-auto px-gutter w-full reveal"
+      >
+        <div class="max-w-3xl">
+          <div
+            class="inline-block bg-safety-yellow text-port-black font-label-bold px-4 py-1 mb-6 uppercase tracking-wider"
+          >
+            Infrastructure & Scale
+          </div>
+          <h1 class="font-headline-xl text-white mb-8 leading-tight">
+            India’s Trusted Supply Chain &
+            <span class="text-safety-yellow">Logistics Partner</span>
+          </h1>
+          <p class="text-on-tertiary text-body-lg mb-10 max-w-xl">
+            Driving operational excellence through massive infrastructure,
+            cutting-edge technology, and a Pan-India network designed for
+            enterprise scale.
+          </p>
+          <div class="flex flex-wrap gap-4">
+            <a
+              href="about.html"
+              class="border-2 border-white text-white font-label-bold px-8 py-4 uppercase text-lg hover:bg-white hover:text-port-black transition-all flex items-center justify-center btn-cta"
+            >
+              Discover How We Deliver
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Infinite Auto-Scrolling Left Image Marquee -->
+    <section
+      class="relative bg-port-black overflow-hidden select-none py-4"
+      id="ImageSliderSection"
+    >
+      <div class="overflow-hidden w-full flex" id="sliderContainer">
+        <div class="marquee-track flex">
+          <!-- Slide 1 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Cargo ship top view"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/container-yard-sunset.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Slide 2 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Transportation truck"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/container-symmetry-corridor.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Slide 3 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Container yard"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/port-container-overview.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Slide 4 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Smart warehouse"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/container-crane-operation.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Duplicate Slide 1 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Cargo ship top view"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/port-aerial-topview.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Duplicate Slide 2 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Transportation truck"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/container-grid-wall.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Duplicate Slide 3 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Container yard"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/port-container-overview.png"
+              width="640"
+              height="400"
+            />
+          </div>
+          <!-- Duplicate Slide 4 -->
+          <div
+            class="w-[320px] md:w-[480px] h-[250px] md:h-[350px] flex-shrink-0 overflow-hidden group px-2"
+          >
+            <img
+              alt="Smart warehouse"
+              class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
+              loading="lazy"
+              src="/assets/port-aerial-topview.png"
+              width="640"
+              height="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions Grid -->
+    <section class="py-xl bg-surface">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="text-center mb-16 reveal">
+          <h2 class="font-headline-lg text-port-black mb-4 uppercase">
+            End-to-End Solutions
+          </h2>
+          <p class="text-steel-gray max-w-2xl mx-auto text-body-md">
+            Integrated logistics services powered by industrial-grade
+            infrastructure and digital visibility.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-md">
+          <!-- Card 1: Warehousing -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl">warehouse</span>
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">Warehousing</h3>
+            <p class="text-body-md text-secondary mb-6">
+              Multi-user facilities and dedicated fulfillment centers with
+              Grade-A specifications.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="warehousing.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Card 2: Surface Transport -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal reveal-delay-1"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl"
+                >local_shipping</span
+              >
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">
+              Surface Transport
+            </h3>
+            <p class="text-body-md text-secondary mb-6">
+              Full Truck Load (FTL) and Part Truck Load (PTL) across a
+              nationwide network.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="transport.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Card 3: 3PL Services -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal reveal-delay-2"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl">hub</span>
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">3PL Services</h3>
+            <p class="text-body-md text-secondary mb-6">
+              Complete outsourcing of logistics operations including inventory
+              and distribution.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="warehousing.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Card 4: CFS Operations -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl">box</span>
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">
+              CFS Operations
+            </h3>
+            <p class="text-body-md text-secondary mb-6">
+              Container Freight Station services with advanced handling and
+              secure storage.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="cfs.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Card 5: Supply Chain Consulting -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal reveal-delay-1"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl">psychology</span>
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">
+              Supply Chain Consulting
+            </h3>
+            <p class="text-body-md text-secondary mb-6">
+              Expert network design and optimization to reduce lead times and
+              costs.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="consulting.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+
+          <!-- Card 6: Logistics Technology -->
+          <div
+            class="bg-white border-2 border-surface-container-highest p-8 industrial-shadow-hover transition-industrial group relative overflow-hidden bento-card reveal reveal-delay-2"
+          >
+            <div
+              class="mb-6 inline-flex items-center justify-center w-16 h-16 bg-surface-container text-port-black group-hover:bg-safety-yellow transition-colors"
+            >
+              <span class="material-symbols-outlined text-4xl">terminal</span>
+            </div>
+            <h3 class="font-headline-sm mb-4 text-port-black">
+              Control Tower Operations
+            </h3>
+            <p class="text-body-md text-secondary mb-6">
+              WMS, TMS, and real-time visibility dashboards for total fleet
+              control.
+            </p>
+            <a
+              class="inline-flex items-center text-port-black font-label-bold uppercase group-hover:text-primary transition-colors mt-auto"
+              href="control-tower.html"
+            >
+              Learn More
+              <span class="material-symbols-outlined ml-2">arrow_forward</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Industry Sectors Switcher -->
+    <section
+      class="py-xl bg-port-black text-white industrial-grid-dark"
+      id="sectors-section"
+    >
+      <div class="max-w-container-max mx-auto px-gutter">
+        <h2 class="font-headline-lg text-center mb-16 uppercase reveal">
+          Industries We Serve
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-4 mb-12 reveal">
+          <button
+            class="tab-btn px-8 py-4 font-label-bold uppercase border-2 border-safety-yellow bg-safety-yellow text-port-black"
+            onclick="ADMark.switchTab('retail', tabData)"
+          >
+            Retail &amp; E-comm
+          </button>
+          <button
+            class="tab-btn px-8 py-4 font-label-bold uppercase border-2 border-white text-white hover:bg-white hover:text-port-black transition-all"
+            onclick="ADMark.switchTab('pharma', tabData)"
+          >
+            Pharma &amp; Healthcare
+          </button>
+          <button
+            class="tab-btn px-8 py-4 font-label-bold uppercase border-2 border-white text-white hover:bg-white hover:text-port-black transition-all"
+            onclick="ADMark.switchTab('industrial', tabData)"
+          >
+            Industrial
+          </button>
+          <button
+            class="tab-btn px-8 py-4 font-label-bold uppercase border-2 border-white text-white hover:bg-white hover:text-port-black transition-all"
+            onclick="ADMark.switchTab('consumer', tabData)"
+          >
+            Consumer Goods
+          </button>
+          <button
+            class="tab-btn px-8 py-4 font-label-bold uppercase border-2 border-white text-white hover:bg-white hover:text-port-black transition-all"
+            onclick="ADMark.switchTab('auto', tabData)"
+          >
+            Automotive
+          </button>
+        </div>
+
+        <div
+          class="grid grid-cols-1 md:grid-cols-2 gap-xl items-center animate-fade-in reveal"
+          id="tab-content"
+        >
+          <div class="space-y-6">
+            <h3 class="font-headline-lg text-safety-yellow" id="tab-title">
+              Tailored Retail Logistics
+            </h3>
+            <p class="text-body-lg text-tertiary-fixed-dim" id="tab-desc">
+              From rapid last-mile delivery to bulk seasonal warehousing, our
+              infrastructure supports the speed and scale required by modern
+              retail giants and e-commerce platforms.
+            </p>
+            <ul class="space-y-4 font-body-md">
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span>Reverse logistics and returns management</span>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span>Value-added services (Kitting/Labeling)</span>
+              </li>
+              <li class="flex items-start gap-4">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span>Real-time inventory visibility</span>
+              </li>
+            </ul>
+          </div>
+          <div
+            class="relative h-96 overflow-hidden industrial-shadow-light border-4 border-safety-yellow"
+          >
+            <div class="absolute inset-0 bg-port-black/20 z-10"></div>
+            <img
+              alt="Industrial Warehouses"
+              class="w-full h-full object-cover"
+              id="tab-img"
+              src="/assets/port-aerial-topview.png"
+              width="600"
+              height="400"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Why Choose AD Mark -->
+    <section class="py-xl bg-white relative">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="text-center max-w-4xl mx-auto mb-12 reveal">
+          <h2 class="font-headline-lg text-port-black uppercase leading-tight">
+            Why Enterprise Partners
+            <span class="text-safety-yellow">Choose AD Mark</span>
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-md">
+          <div
+            class="p-6 bg-surface-container-low border-t-8 border-safety-yellow text-center flex flex-col items-center bento-card reveal"
+          >
+            <span
+              class="material-symbols-outlined text-4xl mb-4 text-port-black"
+              >foundation</span
+            >
+            <h4 class="font-headline-sm mb-2 uppercase text-lg">
+              Infrastructure
+            </h4>
+            <p class="text-body-sm text-secondary">
+              Grade-A facilities in prime strategic locations across India.
+            </p>
+          </div>
+          <div
+            class="p-6 bg-surface-container-low border-t-8 border-safety-yellow text-center flex flex-col items-center bento-card reveal reveal-delay-1"
+          >
+            <span
+              class="material-symbols-outlined text-4xl mb-4 text-port-black"
+              >visibility</span
+            >
+            <h4 class="font-headline-sm mb-2 uppercase text-lg">
+              Total Visibility
+            </h4>
+            <p class="text-body-sm text-secondary">
+              Control tower operations providing 24/7 data-driven insights.
+            </p>
+          </div>
+          <div
+            class="p-6 bg-surface-container-low border-t-8 border-safety-yellow text-center flex flex-col items-center bento-card reveal reveal-delay-2"
+          >
+            <span
+              class="material-symbols-outlined text-4xl mb-4 text-port-black"
+              >forum</span
+            >
+            <h4 class="font-headline-sm mb-2 uppercase text-lg">
+              Consultative
+            </h4>
+            <p class="text-body-sm text-secondary">
+              Customized solutions rather than "one-size-fits-all" services.
+            </p>
+          </div>
+          <div
+            class="p-6 bg-surface-container-low border-t-8 border-safety-yellow text-center flex flex-col items-center bento-card reveal reveal-delay-3"
+          >
+            <span
+              class="material-symbols-outlined text-4xl mb-4 text-port-black"
+              >precision_manufacturing</span
+            >
+            <h4 class="font-headline-sm mb-2 uppercase text-lg">Excellence</h4>
+            <p class="text-body-sm text-secondary">
+              Rigorous SOPs and safety protocols that exceed industry norms.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ & Insights Sections -->
+    <section class="py-xl bg-surface-container">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-xl">
+          <!-- FAQs -->
+          <div class="reveal">
+            <h2 class="font-headline-md text-port-black mb-12 uppercase">
+              Frequently Asked Questions
+            </h2>
+            <div class="space-y-4">
+              <div class="border-b-2 border-surface-container-highest faq-card">
+                <button
+                  class="w-full flex justify-between items-center py-6 text-left group focus:outline-none"
+                  onclick="ADMark.toggleFaq(this)"
+                >
+                  <span
+                    class="font-headline-sm text-lg group-hover:text-primary transition-colors"
+                    >What is the range of your transportation fleet?</span
+                  >
+                  <span
+                    class="material-symbols-outlined transition-transform faq-trigger-icon"
+                    >expand_more</span
+                  >
+                </button>
+                <div class="faq-ans text-body-md text-secondary">
+                  We operate a diverse fleet ranging from 14ft LCVs to 40ft
+                  high-cube trailers, specializing in both FTL and express
+                  movement for high-value cargo.
+                </div>
+              </div>
+              <div class="border-b-2 border-surface-container-highest faq-card">
+                <button
+                  class="w-full flex justify-between items-center py-6 text-left group focus:outline-none"
+                  onclick="ADMark.toggleFaq(this)"
+                >
+                  <span
+                    class="font-headline-sm text-lg group-hover:text-primary transition-colors"
+                    >Do you provide end-to-end 3PL solutions?</span
+                  >
+                  <span
+                    class="material-symbols-outlined transition-transform faq-trigger-icon"
+                    >expand_more</span
+                  >
+                </button>
+                <div class="faq-ans text-body-md text-secondary">
+                  Yes, our 3PL model covers everything from inbound
+                  transportation and warehousing to inventory management and
+                  last-mile delivery.
+                </div>
+              </div>
+              <div class="border-b-2 border-surface-container-highest faq-card">
+                <button
+                  class="w-full flex justify-between items-center py-6 text-left group focus:outline-none"
+                  onclick="ADMark.toggleFaq(this)"
+                >
+                  <span
+                    class="font-headline-sm text-lg group-hover:text-primary transition-colors"
+                    >How do you ensure cargo security?</span
+                  >
+                  <span
+                    class="material-symbols-outlined transition-transform faq-trigger-icon"
+                    >expand_more</span
+                  >
+                </button>
+                <div class="faq-ans text-body-md text-secondary">
+                  Our facilities are ISO certified with 24/7 CCTV, restricted
+                  access controls, and GPS tracking on all primary transport
+                  routes.
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Blog Preview -->
+          <div class="reveal">
+            <div class="flex justify-between items-center mb-12">
+              <h2 class="font-headline-md text-port-black uppercase">
+                Insights Center
+              </h2>
+              <a
+                class="text-label-bold font-bold uppercase border-b-2 border-safety-yellow pb-1"
+                href="#"
+                >View All</a
+              >
+            </div>
+
+            <div class="space-y-6">
+              <div
+                class="flex gap-6 group cursor-pointer border-b border-surface-container-highest pb-4"
+              >
+                <div
+                  class="w-24 h-24 md:w-32 md:h-32 bg-port-black overflow-hidden flex-shrink-0"
+                >
+                  <img
+                    class="w-full h-full object-cover opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all"
+                    loading="lazy"
+                    src="/assets/port-container-overview.png"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="text-label-bold text-safety-yellow font-bold uppercase block mb-1"
+                    >Industry Report</span
+                  >
+                  <h4
+                    class="font-headline-sm text-lg mb-2 group-hover:text-primary transition-colors uppercase"
+                  >
+                    The Future of Multi-Modal Transport in India
+                  </h4>
+                  <p class="text-body-sm text-secondary line-clamp-2">
+                    Exploring how infrastructure developments are reshaping the
+                    way we move goods across the subcontinent...
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-6 group cursor-pointer">
+                <div
+                  class="w-24 h-24 md:w-32 md:h-32 bg-port-black overflow-hidden flex-shrink-0"
+                >
+                  <img
+                    class="w-full h-full object-cover opacity-80 group-hover:scale-110 group-hover:opacity-100 transition-all"
+                    loading="lazy"
+                    src="/assets/container-crane-operation.png"
+                    width="128"
+                    height="128"
+                  />
+                </div>
+                <div>
+                  <span
+                    class="text-label-bold text-safety-yellow font-bold uppercase block mb-1"
+                    >Tech Update</span
+                  >
+                  <h4
+                    class="font-headline-sm text-lg mb-2 group-hover:text-primary transition-colors uppercase"
+                  >
+                    WMS: Increasing Efficiency by 35%
+                  </h4>
+                  <p class="text-body-sm text-secondary line-clamp-2">
+                    How our proprietary Warehouse Management System is helping
+                    clients reduce operational lag...
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dynamic Footer Injection Hook -->
+    <div id="global-footer"></div>
+
+    <!-- Tab switcher sector raw mock data mapped safely -->
+    <script>
+      const tabData = {
+        retail: {
+          title: "Tailored Retail Logistics",
+          desc: "From rapid last-mile delivery to bulk seasonal warehousing, our infrastructure supports the speed and scale required by modern retail giants and e-commerce platforms.",
+          imgUrl:
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuAfDk4m7wzjbwlQ0aze3GzzLOOTMMuivxkfvni5aFy0Tc-yCvB8wGCaE__ZnKa-9w6E4e3Kk2pLNoqzaGkk1ltB1lQap5D44PaRk9CQn6YVlhESU-3q2XZKWG7s_lUrLTLYa9bO_y1tKEaCwc4jmN3J-EvO8dZKGA97XBqkTut7pFMJHpoGIF-6DdOnHiKV-k0UYt8i7224kmGpxjqVZbopJi1_W_UhA05VCFZh-3qgxz3A-OD5wwC6gsFaS3rE9_WYPLiC_TjGDvkn",
+        },
+        pharma: {
+          title: "Cold-Chain Pharma Logistics",
+          desc: "Certified temperature-controlled warehousing and specialized handling for pharmaceutical products ensuring integrity from manufacturer to patient.",
+          imgUrl:
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuCh6mew-lqam8Nk_Ie4rIYd0LT8lh7D0pV4Y6M4qlnNijmtV91PvwMKf1VReO0IUl5Vol_Bu5M4lQ2a2BPQef38kgRJ0uSHTlo_ltTm-gNpYNrgl8_03d40pjYBtMb45mL-9swbL9h1weQaWhhFEo71c8HLP4mzhOjTlzo2vRvuJxs7K03Z9kGW8w3_P9S7xAcbRbZmP0IdpWJLxiGrBj9glxXxw-zYw59YK7zOE_ES8xFLjNBWkxjG38Pzbhx3cUNQvN0ZZTiF_EZp",
+        },
+        industrial: {
+          title: "Heavy Industrial Solutions",
+          desc: "Moving the giants. We provide specialized logistics for heavy machinery, spare parts, and raw materials for the manufacturing sector.",
+          imgUrl:
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuCQOwKT2Kre3zHyTKnXJNPRQMzSs1niaLSWnnb1sGJVooHILDW6KugqL7jEDn1ir7S6I9-Jih5WCnixkRaY-7SqOuD0X9158fNtFCx16UmVttLA9uOXqPkmo309w-ZaHBSqkBo5VNa4IJJT-Ni0du9kjKgAvf6SwBLGOQXWsnkHG7EM-1QmaXfPHNbaFe_d64lNzDTnICs9x8Tkc7I-8gSqrOvL2-ITm8lHcdp59lj-T-g-kknl2L_iZiFKWtB5BH9f8gLytdVHLDA",
+        },
+        consumer: {
+          title: "FMCG Distribution",
+          desc: "High-velocity cross-docking and inventory management systems designed to keep consumer goods moving onto shelves without delay.",
+          imgUrl:
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuBqms_nCEh_N8k85ZbJnyrCTi_PvSOCsCTTxsQJMk6y0c4y_5r-6L-9R2NVohqVg0LqyRXQo5OVj97zbeQ3ViEIstpsQW6eXNIgFYWExtHaZ_8zHbCb168kdJKz9BwrCfg8rEQGWJCMTvw7DI5t3xCFwbbVJsgZKA-FWA3i9T3mWLFfQT9G6eoIvWF23ol4dSMTaGTVe51Gwu5d9KS1Zo04qGJThS3CCnFU3TVF2RNjPtW2VYJPWKU2UJLMRr2YkBdmiEuExnvByrs",
+        },
+        auto: {
+          title: "Automotive Supply Chain",
+          desc: "Just-In-Time (JIT) delivery systems and specialized vehicle transport solutions for India's growing automotive manufacturing hubs.",
+          imgUrl:
+            "https://lh3.googleusercontent.com/aida-public/AB6AXuBY4TGwNBOBce8nDWwh0IcQHKTBRveEC6doaW530q0ZsE6xyBErEmuuUYwBn2rZwoBHunOHA2iy3AmR6DqrBhU5WGrQr8syxB6eEKaYZR3PDNw04UDgLzKGWWtWIzhW5XaU9NvEVBIaKg6wnPDjHiznl5OU51me6IJ_8D_8LGxpA6w8byvFPCdDGnObnFROs7pJ1bscNopR75_1TG61ZEhq7bYjJQ3asSOcBaz034cBEnyStNjgPwkplBNT-mMAgv24uR65Mx7l6kUi",
+        },
+      };
+    </script>
+  </body>
+</html>

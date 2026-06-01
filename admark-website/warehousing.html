@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Warehousing | AD Mark Logistics</title>
+
+    <!-- External assets -->
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap"
+      rel="stylesheet"
+    />
+    <link href="css/styles.css" rel="stylesheet" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body class="bg-background text-on-surface font-body-md overflow-x-hidden">
+    <!-- Global Sticky Navigation Bar Dynamic Hook -->
+    <div id="global-navbar" class="sticky-navbar"></div>
+
+    <!-- Hero Section -->
+    <header
+      class="bg-surface-container-lowest py-24 px-gutter flex items-center justify-center text-center mt-20 reveal"
+    >
+      <div class="max-w-4xl mx-auto">
+        <h1 class="font-headline-xl text-port-black mb-sm">
+          Integrated Warehousing & Distribution Solutions
+        </h1>
+        <p class="font-body-lg text-secondary max-w-2xl mx-auto">
+          Offering bespoke solutions to help businesses stay ahead of the game
+          with reliable space allocation and robust fulfillment models.
+        </p>
+      </div>
+    </header>
+
+    <!-- Counter Section -->
+    <section
+      class="relative py-xl overflow-hidden min-h-[400px] flex items-center reveal"
+    >
+      <div class="absolute inset-0 z-0">
+        <img
+          alt="Warehouse backdrop"
+          class="w-full h-full object-cover"
+          src="/assets/container-worker-corridor.png"
+          width="1920"
+          height="600"
+        />
+        <div class="absolute inset-0 bg-port-black/60"></div>
+      </div>
+      <div class="relative z-10 max-w-container-max mx-auto px-gutter w-full">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-xl text-on-tertiary">
+          <div class="flex flex-col items-center">
+            <span
+              class="font-headline-xl leading-none mb-xs animate-metric-count"
+              data-target="55+"
+              >0</span
+            >
+            <span
+              class="font-label-bold text-label-bold uppercase tracking-[0.2em] text-safety-yellow"
+              >Warehouses</span
+            >
+          </div>
+          <div class="flex flex-col items-center">
+            <span
+              class="font-headline-xl leading-none mb-xs animate-metric-count"
+              data-target="2.5M+"
+              >0</span
+            >
+            <span
+              class="font-label-bold text-label-bold uppercase tracking-[0.2em] text-safety-yellow"
+              >Sq. Ft. Space</span
+            >
+          </div>
+          <div class="flex flex-col items-center">
+            <span
+              class="font-headline-xl leading-none mb-xs animate-metric-count"
+              data-target="30+"
+              >0</span
+            >
+            <span
+              class="font-label-bold text-label-bold uppercase tracking-[0.2em] text-safety-yellow"
+              >Customers</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Advantage Cards (Bento-style Grid) -->
+    <section class="py-xl industrial-grid">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="mb-lg reveal">
+          <span
+            class="inline-block bg-safety-yellow/20 border border-safety-yellow text-port-black px-sm py-xs font-label-bold text-label-bold uppercase mb-sm"
+            >Why AD Mark</span
+          >
+          <h2 class="font-headline-lg text-port-black">
+            The AD Mark Advantage
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-md">
+          <!-- Omni-channel Card -->
+          <div
+            class="bg-white border-l-4 border-safety-yellow p-lg shadow-md hover:shadow-xl transition-shadow flex flex-col justify-between group bento-card reveal"
+          >
+            <div>
+              <span
+                class="material-symbols-outlined text-safety-yellow text-[48px] mb-md"
+                style="font-variation-settings: &quot;FILL&quot; 1"
+                >hub</span
+              >
+              <h3 class="font-headline-sm mb-md text-port-black uppercase">
+                Omni-channel
+              </h3>
+              <p class="font-body-md text-secondary">
+                Seamlessly integrate your offline and online inventory through
+                our unified fulfillment network designed for modern retail.
+              </p>
+            </div>
+          </div>
+
+          <!-- Tech-Driven (Center Image Highlight) -->
+          <div
+            class="relative overflow-hidden group min-h-[400px] bento-card reveal reveal-delay-1"
+          >
+            <img
+              alt="Warehouse worker scanning inventory"
+              class="absolute inset-0 w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+              src="/assets/container-symmetry-corridor.png"
+              width="400"
+              height="400"
+            />
+            <div
+              class="absolute inset-0 bg-port-black/60 flex flex-col justify-end p-lg"
+            >
+              <h3 class="font-headline-sm text-safety-yellow mb-sm uppercase">
+                Tech-Driven
+              </h3>
+              <p class="font-body-sm text-on-tertiary">
+                Real-time tracking, AI-powered stock optimization, and 100%
+                digital visibility across your entire inventory.
+              </p>
+            </div>
+          </div>
+
+          <!-- Multi-user Card -->
+          <div
+            class="bg-white border-l-4 border-safety-yellow p-lg shadow-md hover:shadow-xl transition-shadow flex flex-col justify-between bento-card reveal reveal-delay-2"
+          >
+            <div>
+              <span
+                class="material-symbols-outlined text-safety-yellow text-[48px] mb-md"
+                style="font-variation-settings: &quot;FILL&quot; 1"
+                >groups</span
+              >
+              <h3 class="font-headline-sm mb-md text-port-black uppercase">
+                Multi-user
+              </h3>
+              <p class="font-body-md text-secondary">
+                Benefit from shared resources and scalable space that grows with
+                your business needs, reducing fixed cost liabilities.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Offerings: A Complete Range -->
+    <section class="py-xl bg-surface-container-low">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="text-center mb-xl reveal">
+          <h2 class="font-headline-lg text-port-black mb-sm uppercase">
+            Service Offerings
+          </h2>
+          <p class="font-body-lg text-secondary max-w-3xl mx-auto">
+            We provide warehousing services both as a standalone service and as
+            a part of our integrated logistics solutions.
+          </p>
+        </div>
+
+        <div class="space-y-lg">
+          <!-- Dedicated Warehousing -->
+          <div
+            class="flex flex-col lg:flex-row bg-white border border-outline-variant overflow-hidden bento-card reveal"
+          >
+            <div class="lg:w-1/2 p-lg flex flex-col justify-center">
+              <h3 class="font-headline-md mb-md text-port-black uppercase">
+                Dedicated Warehousing
+              </h3>
+              <p class="font-body-md text-secondary mb-md">
+                A solution for customers who need exclusive storage and related
+                value-added warehouse service. Our dedicated services offer
+                advantages like ready availability of skilled manpower, quality
+                capital equipment, and a WMS provided at competitive costs.
+              </p>
+            </div>
+            <div class="lg:w-1/2">
+              <img
+                alt="Warehouse shelving"
+                class="w-full h-full object-cover"
+                src="/assets/container-yard-sunset.png"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- Multi-User Facilities -->
+          <div
+            class="flex flex-col lg:flex-row-reverse bg-white border border-outline-variant overflow-hidden bento-card reveal"
+          >
+            <div class="lg:w-1/2 p-lg flex flex-col justify-center">
+              <h3 class="font-headline-md mb-md text-port-black uppercase">
+                Multi-User Facilities
+              </h3>
+              <p class="font-body-md text-secondary mb-md">
+                Our Multi-user facilities provide businesses shared and scalable
+                warehousing that translates to big savings in distribution cost
+                and gains in efficiency. These facilities are best suited for
+                enterprises and traders that are competing in new markets.
+              </p>
+            </div>
+            <div class="lg:w-1/2">
+              <img
+                alt="Logistics center"
+                class="w-full h-full object-cover"
+                src="/assets/container-grid-wall.png"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- In-Plant Warehousing -->
+          <div
+            class="flex flex-col lg:flex-row bg-white border border-outline-variant overflow-hidden bento-card reveal"
+          >
+            <div class="lg:w-1/2 p-lg flex flex-col justify-center">
+              <h3 class="font-headline-md mb-md text-port-black uppercase">
+                In-Plant Warehousing
+              </h3>
+              <p class="font-body-md text-secondary mb-md">
+                We manage in-plant warehousing for leading companies, deploying
+                required resources for material handling equipment, dynamic
+                safety compliance, and efficient manufacturing assembly line
+                operations.
+              </p>
+            </div>
+            <div class="lg:w-1/2">
+              <img
+                alt="Manufacturing warehouse"
+                class="w-full h-full object-cover"
+                src="/assets/port-container-overview.png"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- Yard Management Services -->
+          <div
+            class="flex flex-col lg:flex-row-reverse bg-white border border-outline-variant overflow-hidden bento-card reveal"
+          >
+            <div class="lg:w-1/2 p-lg flex flex-col justify-center">
+              <h3 class="font-headline-md mb-md text-port-black uppercase">
+                Yard Management Services (YMS)
+              </h3>
+              <p class="font-body-md text-secondary mb-md">
+                An agile yard management system (YMS) can eliminate human
+                errors, transform workflow and inventory management, and deliver
+                operational excellence inside container terminals.
+              </p>
+            </div>
+            <div class="lg:w-1/2">
+              <img
+                alt="Yard management"
+                class="w-full h-full object-cover"
+                src="/assets/port-logistics-terminal.png"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Value-Added Services -->
+    <section class="py-xl bg-port-black text-on-tertiary overflow-hidden">
+      <div class="max-w-container-max mx-auto px-gutter relative">
+        <div
+          class="absolute top-0 right-0 text-[200px] font-bold text-on-tertiary/5 select-none pointer-events-none transform translate-x-1/2 -translate-y-1/4"
+        >
+          AD
+        </div>
+
+        <div class="mb-xl text-center md:text-left reveal">
+          <h2 class="font-headline-lg mb-sm uppercase">Value-Added Services</h2>
+          <div class="w-32 h-1 bg-safety-yellow"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-md">
+          <!-- Inventory Mgmt -->
+          <div
+            class="group border border-on-tertiary/20 p-md hover:bg-safety-yellow transition-all duration-300 reveal"
+          >
+            <span
+              class="material-symbols-outlined text-[40px] text-safety-yellow group-hover:text-port-black mb-md"
+              style="font-variation-settings: &quot;FILL&quot; 1"
+              >inventory</span
+            >
+            <h4
+              class="font-headline-sm group-hover:text-port-black mb-sm uppercase text-lg"
+            >
+              Inventory Mgmt
+            </h4>
+            <p
+              class="font-body-sm text-tertiary-fixed group-hover:text-port-black/80"
+            >
+              End-to-end stock visibility with cycle counting and expiry
+              tracking.
+            </p>
+          </div>
+          <!-- Embedded Features -->
+          <div
+            class="group border border-on-tertiary/20 p-md hover:bg-safety-yellow transition-all duration-300 reveal reveal-delay-1"
+          >
+            <span
+              class="material-symbols-outlined text-[40px] text-safety-yellow group-hover:text-port-black mb-md"
+              style="font-variation-settings: &quot;FILL&quot; 1"
+              >settings_suggest</span
+            >
+            <h4
+              class="font-headline-sm group-hover:text-port-black mb-sm uppercase text-lg"
+            >
+              Embedded Features
+            </h4>
+            <p
+              class="font-body-sm text-tertiary-fixed group-hover:text-port-black/80"
+            >
+              Custom WMS integration and specialized security protocols.
+            </p>
+          </div>
+          <!-- Packaging -->
+          <div
+            class="group border border-on-tertiary/20 p-md hover:bg-safety-yellow transition-all duration-300 reveal reveal-delay-2"
+          >
+            <span
+              class="material-symbols-outlined text-[40px] text-safety-yellow group-hover:text-port-black mb-md"
+              style="font-variation-settings: &quot;FILL&quot; 1"
+              >package_2</span
+            >
+            <h4
+              class="font-headline-sm group-hover:text-port-black mb-sm uppercase text-lg"
+            >
+              Packaging
+            </h4>
+            <p
+              class="font-body-sm text-tertiary-fixed group-hover:text-port-black/80"
+            >
+              Retail-ready packaging, labeling, and secondary wrapping services.
+            </p>
+          </div>
+          <!-- Assembly -->
+          <div
+            class="group border border-on-tertiary/20 p-md hover:bg-safety-yellow transition-all duration-300 reveal reveal-delay-3"
+          >
+            <span
+              class="material-symbols-outlined text-[40px] text-safety-yellow group-hover:text-port-black mb-md"
+              style="font-variation-settings: &quot;FILL&quot; 1"
+              >precision_manufacturing</span
+            >
+            <h4
+              class="font-headline-sm group-hover:text-port-black mb-sm uppercase text-lg"
+            >
+              Assembly
+            </h4>
+            <p
+              class="font-body-sm text-tertiary-fixed group-hover:text-port-black/80"
+            >
+              Kitting, component assembly, and postponement services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- State-Of-The-Art Technology -->
+    <section class="py-xl bg-white">
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-xl">
+          <div class="space-y-md reveal">
+            <h2 class="font-headline-lg text-port-black uppercase">
+              State-Of-The-Art Tech
+            </h2>
+            <p class="font-body-md text-secondary">
+              By leveraging the latest in technology and edge infrastructure,
+              our warehouse systems generate actionable insights from operations
+              to drive real-time decision-making. We have incorporated
+              sophisticated process optimization capabilities with warehouse
+              execution system (WES) applications.
+            </p>
+            <p class="font-body-md text-secondary">
+              For us, inventory balancing is a key process to further optimize
+              our omnichannel strategy. In this regard, the omnichannel WMS
+              enables us to record the movements of finished products from the
+              time they leave the warehouse until their delivery.
+            </p>
+          </div>
+          <div
+            class="bg-port-black p-lg text-on-tertiary flex flex-col justify-center border-l-8 border-safety-yellow industrial-shadow reveal"
+          >
+            <h3 class="font-headline-md text-safety-yellow mb-md uppercase">
+              Augmented Visibility at Every Step
+            </h3>
+            <ul class="grid grid-cols-1 gap-sm font-label-bold">
+              <li class="flex items-center gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >arrow_right_alt</span
+                >
+                Warehouse Management System
+              </li>
+              <li class="flex items-center gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >arrow_right_alt</span
+                >
+                Warehouse Automation
+              </li>
+              <li class="flex items-center gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >arrow_right_alt</span
+                >
+                Predictive &amp; Data Analytics Tools
+              </li>
+              <li class="flex items-center gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >arrow_right_alt</span
+                >
+                Warehouse Floor Optimization
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Growth Catalysts -->
+    <section
+      class="py-xl bg-surface-container-low border-t border-outline-variant"
+    >
+      <div class="max-w-container-max mx-auto px-gutter">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-xl items-center">
+          <div class="space-y-lg reveal">
+            <h2 class="font-headline-lg text-port-black uppercase">
+              Growth Catalysts
+            </h2>
+            <ul class="space-y-md font-label-bold text-port-black font-body-md">
+              <li class="flex items-start gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span
+                  >Automated Warehouses, equipped with best-in-class Material
+                  Handling Equipment (MHE).</span
+                >
+              </li>
+              <li class="flex items-start gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span
+                  >Scalable, customized warehousing solutions designed to meet
+                  customer peaks.</span
+                >
+              </li>
+              <li class="flex items-start gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span
+                  >Dedicated support teams available 24/7 for inventory
+                  guidance.</span
+                >
+              </li>
+              <li class="flex items-start gap-sm">
+                <span class="material-symbols-outlined text-safety-yellow"
+                  >check_circle</span
+                >
+                <span
+                  >Delivering reduced overhead, optimized storage metrics, and
+                  high throughput.</span
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="relative reveal">
+            <img
+              alt="Industrial growth imagery"
+              class="w-full h-auto shadow-2xl rounded-default border"
+              src="/assets/container-yard-wet-reflection.png"
+              width="600"
+              height="400"
+              loading="lazy"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Dynamic Footer Injection Hook -->
+    <div id="global-footer"></div>
+  </body>
+</html>

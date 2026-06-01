@@ -1,0 +1,61 @@
+<div class="nav-container max-w-container-max mx-auto px-gutter flex justify-between items-center h-full">
+    <!-- Brand Logo -->
+    <a href="index.html" class="flex items-center nav-brand">
+        <img alt="AD Mark Logo" class="nav-logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTWldn1JvyfnoMruV-sAbQDpvk7fI_X-eLMy3Fu_j1QrwDGAgO4_HwnEK9khD6MxNt6V8qZEJkRaBkTdaQxIjD9SD2j_BiraHax12FhG0oX7eGrnbJZkCHQfNW5nc0kBnSTgEWm3icrODk-gYUbk9HWxlVaU9gvfdO9RZmvv8kd7m7ri-5c7owI726DTA0rw3nbXtFY2sgSGPzIMMTGJJHBS83c4YgEX6i0UD2tDkO5TdCBd-kr6lMKVC_UPiB--ZqcikBdpyP5NE">
+    </a>
+
+    <!-- Desktop Navigation Links -->
+    <nav class="hidden md:flex items-center nav-menu gap-lg">
+        <a href="index.html" class="nav-link font-label-bold uppercase text-port-black" id="nav-home">Home</a>
+        
+        <!-- Services Dropdown Parent -->
+        <div class="nav-dropdown group relative" id="nav-services-parent">
+            <button class="nav-link font-label-bold uppercase text-port-black flex items-center gap-xs focus:outline-none dropdown-toggle">
+                Services <span class="material-symbols-outlined dropdown-chevron">expand_more</span>
+            </button>
+            <div class="dropdown-menu absolute hidden bg-white shadow-xl border-t-4 border-safety-yellow py-sm flex flex-col z-50">
+                <a href="warehousing.html" class="dropdown-item font-label-bold uppercase text-port-black py-xs px-md hover:bg-surface" id="nav-warehousing">Warehousing</a>
+                <a href="transport.html" class="dropdown-item font-label-bold uppercase text-port-black py-xs px-md hover:bg-surface" id="nav-transport">Surface Transport</a>
+                <a href="cfs.html" class="dropdown-item font-label-bold uppercase text-port-black py-xs px-md hover:bg-surface" id="nav-cfs">CFS Operations</a>
+                <a href="consulting.html" class="dropdown-item font-label-bold uppercase text-port-black py-xs px-md hover:bg-surface" id="nav-consulting">Supply Chain Consulting</a>
+                <a href="control-tower.html" class="dropdown-item font-label-bold uppercase text-port-black py-xs px-md hover:bg-surface" id="nav-control-tower">Control Tower & Analytics</a>
+            </div>
+        </div>
+
+        <a href="about.html" class="nav-link font-label-bold uppercase text-port-black" id="nav-about">About Us</a>
+    </nav>
+
+    <!-- Mobile Hamburger Toggle Trigger -->
+    <button class="md:hidden flex items-center justify-center text-port-black focus:outline-none h-10 w-10 active:scale-90 transition-transform" id="mobile-toggle" aria-label="Toggle Menu">
+        <span class="material-symbols-outlined text-3xl" id="hamburger-icon">menu</span>
+    </button>
+</div>
+
+<!-- Mobile Drawer Sidenav Panel Overlay -->
+<div class="mobile-drawer fixed inset-y-0 left-full w-full h-full bg-port-black/95 z-[999] text-white flex flex-col transition-all duration-300 pointer-events-none" id="mobile-drawer">
+    <div class="flex justify-between items-center h-20 px-gutter border-b border-white/10">
+        <img alt="AD Mark Logo" class="nav-logo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDTWldn1JvyfnoMruV-sAbQDpvk7fI_X-eLMy3Fu_j1QrwDGAgO4_HwnEK9khD6MxNt6V8qZEJkRaBkTdaQxIjD9SD2j_BiraHax12FhG0oX7eGrnbJZkCHQfNW5nc0kBnSTgEWm3icrODk-gYUbk9HWxlVaU9gvfdO9RZmvv8kd7m7ri-5c7owI726DTA0rw3nbXtFY2sgSGPzIMMTGJJHBS83c4YgEX6i0UD2tDkO5TdCBd-kr6lMKVC_UPiB--ZqcikBdpyP5NE">
+        <button class="text-white focus:outline-none h-10 w-10 flex items-center justify-center" id="mobile-close" aria-label="Close Menu">
+            <span class="material-symbols-outlined text-3xl">close</span>
+        </button>
+    </div>
+    <div class="flex-grow overflow-y-auto px-gutter py-xl flex flex-col gap-lg">
+        <a href="index.html" class="mobile-link font-label-bold uppercase text-white hover:text-safety-yellow text-xl py-xs" id="mob-home">Home</a>
+        
+        <!-- Mobile Services Accordion collapsible -->
+        <div class="mobile-accordion">
+            <button class="mobile-link font-label-bold uppercase text-white hover:text-safety-yellow text-xl py-xs w-full text-left flex justify-between items-center focus:outline-none" id="mob-services-parent">
+                Services <span class="material-symbols-outlined accordion-chevron transition-transform duration-300">expand_more</span>
+            </button>
+            <div class="accordion-content max-h-0 overflow-hidden flex flex-col pl-md gap-sm border-l-2 border-white/10 transition-all duration-300">
+                <a href="warehousing.html" class="mobile-sublink font-label-bold uppercase text-white/75 hover:text-safety-yellow text-lg py-xs pt-md" id="mob-warehousing">Warehousing</a>
+                <a href="transport.html" class="mobile-sublink font-label-bold uppercase text-white/75 hover:text-safety-yellow text-lg py-xs" id="mob-transport">Surface Transport</a>
+                <a href="cfs.html" class="mobile-sublink font-label-bold uppercase text-white/75 hover:text-safety-yellow text-lg py-xs" id="mob-cfs">CFS Operations</a>
+                <a href="consulting.html" class="mobile-sublink font-label-bold uppercase text-white/75 hover:text-safety-yellow text-lg py-xs" id="mob-consulting">Supply Chain Consulting</a>
+                <a href="control-tower.html" class="mobile-sublink font-label-bold uppercase text-white/75 hover:text-safety-yellow text-lg py-xs" id="mob-control-tower">Control Tower & Analytics</a>
+            </div>
+        </div>
+
+        <a href="about.html" class="mobile-link font-label-bold uppercase text-white hover:text-safety-yellow text-xl py-xs" id="mob-about">About Us</a>
+    </div>
+</div>
