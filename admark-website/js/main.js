@@ -144,14 +144,14 @@ function initComponentLoader() {
     };
 
     // Load Navbar
-    loadComponent('components/navbar.html', navbarContainer, () => {
+    loadComponent('admark-website/components/navbar.html', navbarContainer, () => {
         // Activate mobile drawers and active nav highlights
         initMobileMenu();
         initActiveNavHighlights();
     });
 
     // Load Footer
-    loadComponent('components/footer.html', footerContainer);
+    loadComponent('admark-website/components/footer.html', footerContainer);
 }
 
 /* ========================================================================
