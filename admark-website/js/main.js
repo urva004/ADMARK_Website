@@ -128,6 +128,10 @@ function initComponentLoader() {
     const navbarContainer = document.getElementById('global-navbar');
     const footerContainer = document.getElementById('global-footer');
 
+    // Resolve component path depending on current page folder
+    const isNestedAdmarkSite = window.location.pathname.split('/').includes('admark-website');
+    const componentBase = isNestedAdmarkSite ? 'components/' : 'admark-website/components/';
+
     // Loader helper
     const loadComponent = (url, container, callback) => {
         if (!container) return;
@@ -144,14 +148,14 @@ function initComponentLoader() {
     };
 
     // Load Navbar
-    loadComponent('admark-website/components/navbar.html', navbarContainer, () => {
+    loadComponent(`${componentBase}navbar.html`, navbarContainer, () => {
         // Activate mobile drawers and active nav highlights
         initMobileMenu();
         initActiveNavHighlights();
     });
 
     // Load Footer
-    loadComponent('admark-website/components/footer.html', footerContainer);
+    loadComponent(`${componentBase}footer.html`, footerContainer);
 }
 
 /* ========================================================================
@@ -159,7 +163,8 @@ function initComponentLoader() {
    ======================================================================== */
 function initActiveNavHighlights() {
     const currentPath = window.location.pathname;
-    const pageName = currentPath.substring(currentPath.lastIndexOf('/') + 1) || 'index.html';
+    let pageName = currentPath.substring(currentPath.lastIndexOf('/') + 1);
+    if (!pageName) pageName = 'index.html';
 
     // Page mapping list
     const navHome = document.getElementById('nav-home');
